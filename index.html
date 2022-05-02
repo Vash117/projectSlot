@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project Slot</title>
+    <link rel='stylesheet' href='mystyle.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="mistery">
+        <!-- <div class="hiden-content"></div>       -->
+        <div class="moregames">MORE GAMES</div>
+        <div class="line"></div>
+        <div class="iron">iron
+            <p id='iron'>100.00</p>
+        </div>
+
+        <div class="line"></div>
+        <div class="bronze">bronze
+            <p id='bronze'>400.00</p>
+
+        </div>
+        <div class="line"></div>
+        <div class="silver">silver
+            <p id='silver'>1000.00</p>
+        </div>
+        <div class="line"></div>
+
+        <div class="gold">gold
+            <p id='gold'>2000.00</p>
+        </div>
+        <div class="line"></div>
+        <div class="reg">registrate</div>
+        <div class="log"><button>log in</button></div>
+    </div>
+
+
+    <div class='monitor'>
+        <div class="hiden-content top"></div>  
+        <div class="hiden-content bottom"></div>
+        <div id="lineFourlineOne"></div>
+        <div id="lineFourlineFive"></div>
+        <div id="lineFivelineOne"></div>
+        <div id="lineFivelineFive"></div>
+        <div class="sideline1"></div>
+        <div class="real1">          
+            <div id="lineOne">
+                <div id="lineoneline" ></div>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+            <div id="realOne">
+                <div id="lineTwoline"></div>
+                <img src=watermelon.svg width=100% height=100%>
+            </div>
+            <div id="line3One">
+
+                <div id="lineThreeline"></div>
+                <img src=seven.svg width=100% height=100%>
+            </div>
+            <div id='hidden1'>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+        </div>
+        <div class="lineagain1"></div>
+        <div class="real2">
+            <div id="lineTwo">
+
+                <div id="lineoneline1"></div>
+                <img src=orange.svg width=100% height=100%>
+            </div>
+            <div id="realTwo">
+                <div id="lineTwoline1"></div>
+
+                <img src=seven.svg width=100% height=100%>
+            </div>
+            <div id="line3Two">
+                <div id="lineThreeline1"></div>
+                <img src=grape.svg width=100% height=100%>
+            </div>
+            <div id='hidden2'>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+        </div>
+        <div class="lineagain2"></div>
+        <div class="real3">
+            <div id="ironMistery">
+                <h1 class='misteryWin'>You have won the iron mistery</h1>
+            </div>
+            <div id="lineThree">
+                <div id="lineoneline2"></div>
+
+                <img src=seven.svg width=100% height=100%>
+            </div>
+            <div id="realThree">
+                <div id="lineTwoline2" ></div>
+                <img src=cherry.svg width=100% height=100%>
+            </div>
+            <div id="line3Three">
+
+                <div id="lineThreeline2"></div>
+                <img src=orange.svg width=100% height=100%>
+            </div>
+            <div id='hidden3'>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+        </div>
+        <div class="lineagain3"></div>
+        <div class="real4">
+            <div id="lineFour">
+                <div id="lineoneline3"></div>
+                <img src=grape.svg width=100% height=100%>
+            </div>
+            <div id="realFour">
+
+                <div id="lineTwoline3"></div>
+
+                <img src=seven.svg width=100% height=100%>
+            </div>
+            <div id="line3Four">
+                <div id="lineThreeline3"></div>
+                <img src=orange.svg width=100% height=100%>
+            </div>
+            <div id='hidden4'>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+        </div>
+        <div class="lineagain4"></div>
+        <div class="real5">
+            <div id="lineFive">
+
+                <div id="lineoneline4"></div>
+                <img src=watermelon.svg width=100% height=100%>
+            </div>
+            <div id="realFive">
+                <div id="lineTwoline4"></div>
+                <img src=cherry.svg width=100% height=100%>
+            </div>
+            <div id="line3Five">
+                <div id="lineThreeline4"></div>
+
+                <img src=seven.svg width=100% height=100%>
+            </div>
+            <div id='hidden5'>
+                <img src=cherry.svg width=100% height=100% >
+            </div>
+        </div>
+        <div class="sideline2"></div>
+
+    </div>
+
+    <div class="options">      
+        <div class="creditandBGN">
+            <div class="credit">
+                <p id='credit' >10000</p>
+            </div>
+            <p class='bgn'>credit</p>
+            
+        </div>
+        
+        <div class="lines">
+            <div class="lines+"><button onclick='linesPlus()' id='lines+'>lines +</button></div>
+            <div class="total">
+                <p id='totalLines'>1</p>
+            </div>
+            <div class="lines-"><button onclick='LinesMinus()' id='lines-'>lines -</button> </div>
+        </div>
+        <div class="bets">
+            <div class="bet+"><button onclick='betPlus()' id='bet+'>bet +</button></div>
+            <div id="displaybet">
+                <p id='betPerLine'>1</p>
+            </div>
+            <div class="bet-"><button onclick='betMinus()' id='bet-'>bet -</button></div>
+        </div>
+        <div class="totalbet">
+            <p class='totalBetText'>total</p>
+            <p id='totalBet'>bet</p>
+        </div>       
+        <div class="start"><button id='start' onclick='start()'>Start</button></div>
+        
+        <div class="auto">
+            <button id='startAuto' onclick='startAuto()'>start auto</button>
+            <button id='stopAuto' onclick='stopAuto()'>stop auto</button>
+            <br>
+            <p id='infoDiv' onclick = 'showInfo()'>i</p>
+            
+        </div>
+       <button class='showWinsBtn' onclick=showWins()>Last Wins</button>
+        
+    </div>
+    <p id='show'></p>
+    <div id="lastWins" >
+        <p id="wins"></p>
+        <button  onclick="closeWins()">Close</button>
+    </div>
+    <div id="infoScreen">
+        <div id='design'>Vangel
+        <h3> Designed by Vangel Tuparov</h3>
+          <p> Contact info</p>
+          <a href='https://www.facebook.com/profile.php?id=100000722399190'  target = '_blank'><img src ='facebook.png' width="60px" height="60px"></a> 
+            <p>Portfolio website : <a href="https://vangeldesign.com/" target="_blank">www.vangeldesign.com</a></p>
+        </div>
+        <div class="midleline">
+            <h1>Version 2.0</h1>
+            <ul>New featurs:
+                <li>1.Clicking on credit now resets it</li>
+                <li>2.Credit and mysteries are now saved in locale storage</li>
+                <li>3.Better spin animation</li>
+                <li>4.Fixed bug with sound effects</li>
+                <li>5.Fixed bug with start button</li>
+                <li>6.Version 3.0 will be released soon in React.js</li>                
+                <li>7.In future updates the code will be refactored and posted on gitHub</li>                
+            </ul>
+        </div>
+        <div id='develep'>Marin
+        <h3> Developed by Marin Mihailov</h3>
+          <p> Contact info</p>
+         <a href='https://bg-bg.facebook.com/marin.mihailov.10' target = '_blank'> <img src ='facebook.png' width="60px" height="60px"></a>
+         
+        </div>
+        <p id= 'closeX' onclick = 'closeThisDiv()'>X</p>
+        </div>
+
+    <script src='app.js'></script>
+
+</body>
+
+</html>
